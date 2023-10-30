@@ -18,9 +18,10 @@
 </head>
 
 <body>
-    <form action="" method="POST">
+    <form action="form.php" method="POST">
         <label for="">Lunghezza della password:</label>
         <input type="number" name="password" id="password" min="8" max="32">
+        <input type="submit" value="invia">
     </form>
     
 </body>
